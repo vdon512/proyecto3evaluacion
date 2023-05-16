@@ -49,7 +49,7 @@ Importar la base de datos desde el archivo SQL.
 
 Cambiar la configuración del proyecto.En las vistas account/login.php y profesor/ver.php, se requiere modificar la URL de destino(en <form action="http://localhost:MiPuerto/App/app/index.php/account/login" method="post">).     
   
-  ###FAGs
+  ### FAGs
 
 
   
