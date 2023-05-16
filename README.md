@@ -41,7 +41,7 @@ El proyecto también hace referencia a archivos CSS y JS locales en las rutas:
 ### Tecnologias utilizadas
 Este proyecto tiene elementos HTML, estilos CSS y funcionalidades implementadas con PHP y JavaScript
 
-### Instalación
+### Instalación(#instalación)
 Tener instalado Xampp/Wampp o un servidor web (por ejemplo, Apache, Nginx) y un intérprete de PHP (como mod_php). 
 Configurar el motor de base de datos correspondiente  MySQL.
 
