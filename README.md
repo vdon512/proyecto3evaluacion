@@ -12,7 +12,7 @@ Es una aplicación web con funcionalidades específicas que permiten a los usuar
 
 ### Información general
 Este proyecto es una representación de una academia en la que los estudiantes se inscriben para mejorar sus calificaciones en diversas asignaturas. Es un entorno en el que cada alumno puede explorar su progreso académico a través de gráficos personalizados en su página individual. Los alumnos también tienen la posibilidad de descargar su horario, el cual se genera a partir de una tabla que muestra sus horarios.
-
+![prof-img](/app/public/Captura2.png)
 Los profesores tienen su propio espacio dedicado donde pueden visualizar su horario semanal de manera clara y organizada. Además, al hacer clic en cada hora dentro de la tabla, pueden obtener una visión completa de los estudiantes inscritos en ese momento, brindando una visión panorámica de su agenda académica.
 
 Este proyecto también ofrece a los profesores la capacidad de enriquecer la experiencia de aprendizaje de sus alumnos. Mediante el uso de un formulario intuitivo, los profesores pueden añadir recursos de apoyo personalizados para cada alumno, adaptándose así a sus necesidades individuales y fomentando un aprendizaje enriquecedor.
