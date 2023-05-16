@@ -21,11 +21,18 @@ En resumen, este proyecto representa un entorno educativo lleno de belleza y fun
 
 ### Dependencias
 ##### Dependencias externas
-Bootstrap CSS: El proyecto está utilizando la versión 5.3.0-alpha3 de Bootstrap. El archivo CSS se carga desde el enlace https://cdn.jsdelivr.net/npm/bootstrap@5.3.0-alpha3/dist/css/bootstrap.min.css. Esta dependencia proporciona estilos predefinidos y componentes visuales para el diseño de la página.
 
-    jQuery: Se está utilizando la versión 3.6.4 de jQuery. El archivo se carga desde https://code.jquery.com/jquery-3.6.4.js. jQuery es una biblioteca de JavaScript que simplifica la manipulación del DOM y proporciona funcionalidades adicionales para interactuar con elementos de la página.
+    Bootstrap CSS: El proyecto está utilizando la versión 5.3.0-alpha3 de Bootstrap. El archivo CSS se carga desde el enlace:
+    https://cdn.jsdelivr.net/npm/bootstrap@5.3.0-alpha3/dist/css/bootstrap.min.css.
+    Esta dependencia proporciona estilos predefinidos y componentes visuales para el diseño de la página.
 
-    jQuery UI: Se está utilizando la versión 1.13.2 de jQuery UI. El archivo se carga desde https://cdnjs.cloudflare.com/ajax/libs/jqueryui/1.13.2/jquery-ui.min.js. jQuery UI es una extensión de jQuery que agrega componentes y efectos visuales adicionales.
+    jQuery: Se está utilizando la versión 3.6.4 de jQuery. El archivo se carga desde:
+    https://code.jquery.com/jquery-3.6.4.js. 
+    jQuery es una biblioteca de JavaScript que simplifica la manipulación del DOM y proporciona funcionalidades adicionales para interactuar con elementos de la    página.
+
+    jQuery UI: Se está utilizando la versión 1.13.2 de jQuery UI. El archivo se carga desde:
+    https://cdnjs.cloudflare.com/ajax/libs/jqueryui/1.13.2/jquery-ui.min.js. 
+    jQuery UI es una extensión de jQuery que agrega componentes y efectos visuales adicionales.
 
 ##### Dependencias internas.Archivos locales referenciados
 El proyecto también hace referencia a archivos CSS y JS locales en las rutas:
