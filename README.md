@@ -41,7 +41,7 @@ El proyecto también hace referencia a archivos CSS y JS locales en las rutas:
 ### Tecnologias utilizadas
 Este proyecto tiene elementos HTML, estilos CSS y funcionalidades implementadas con PHP y JavaScript
 
-### Instalación(#instalación)
+### Instalación
 Tener instalado Xampp/Wampp o un servidor web (por ejemplo, Apache, Nginx) y un intérprete de PHP (como mod_php). 
 Configurar el motor de base de datos correspondiente  MySQL.
 
@@ -49,7 +49,10 @@ Importar la base de datos desde el archivo SQL.
 
 Cambiar la configuración del proyecto.En las vistas account/login.php y profesor/ver.php, se requiere modificar la URL de destino(en <form action="http://localhost:MiPuerto/App/app/index.php/account/login" method="post">).     
   
-  ### FAGs
+  ### FAQs
+    
+Pregunta: ¿Se han implementado cookies en esta aplicación?                                   
 
+"Sí, esta aplicación utiliza JavaScript para mostrar un mensaje diciendo que usamos cookies en el sitio web. Si aceptas las cookies haciendo clic en el botón "Aceptar", guardamos una cookie llamada "cookies_accepted" en tu navegador por 30 días. Así, no te volveremos a molestar con el mensaje de cookies en tus próximas visitas."
 
   
