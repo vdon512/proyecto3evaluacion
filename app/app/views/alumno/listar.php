@@ -106,7 +106,7 @@ if(empty($_SESSION['email'])&& $_SESSION['rol'] !="alumno"){header("Location: in
     }
   );
     }
-   //-------------------------------------------
+  
    function actualizarGrafica(grafica) {
   fetch("alumno/datos_grafico?dni=" + dni_alumno)
     .then(response => response.json())
@@ -114,7 +114,7 @@ if(empty($_SESSION['email'])&& $_SESSION['rol'] !="alumno"){header("Location: in
       var fechas = [];
       var notas = [];
       let i; 
-      for (i = 0; i < data.length-1; i++) {
+      for (i = 0; i < data.length; i++) {
         fechas.push(data[i]['fecha']);
         notas.push(data[i]['nota']);
       }
@@ -122,37 +122,33 @@ if(empty($_SESSION['email'])&& $_SESSION['rol'] !="alumno"){header("Location: in
       //notas.reverse();
 
       // se actualizan los datos de la gráfica
-      // variable `grafica` que almacena la instancia de la gráfica
+      // variable grafica que almacena la instancia de la gráfica
       grafica.data.labels = fechas;
       grafica.data.datasets[0].data = notas;
       grafica.update();
     });
 }
-   //-------------------------------------------
+   
    document.addEventListener('DOMContentLoaded', () => {
-    fetch("alumno/datos_grafico?dni=" + dni_alumno)
+  fetch("alumno/datos_grafico?dni=" + dni_alumno)
     .then(response => response.json())
     .then(data => {
       var fechas = [];
       var notas = [];
-      let i; 
-      for (i = 0; i < data.length-1; i++) {
+      let i;
+      for (i = 0; i < data.length; i++) { 
         fechas.push(data[i]['fecha']);
-      notas.push(data[i]['nota']);
-       }
-    //  fechas.reverse(); // invertir el orden de los elementos en el array fechas
-  //  notas.reverse(); // in vertir el orden de los elementos en el array notas
-    
+        notas.push(data[i]['nota']);
+      }
+
       crearGrafico(fechas, notas);
-      //-------------------------------------------
-     
-   //-------------------------------------------
-    
-    setInterval(() => {
-        actualizarGrafica(grafica); // Llamar a la función actualizarGrafica cada 5 segundos con la instancia de la gráfica
+      
+      setInterval(() => {
+        actualizarGrafica(grafica);
       }, 5000);
     });
 });
+
    
 </script>
 
@@ -221,7 +217,7 @@ if(empty($_SESSION['email'])&& $_SESSION['rol'] !="alumno"){header("Location: in
    </ul>
 </div>
 <script>
-  
+
   const recursoBtn = document.getElementById('recursoBtn');
   const enlacesUl = document.getElementById('enlaces');
   enlacesUl.classList.add("list-group");
@@ -245,6 +241,7 @@ if(empty($_SESSION['email'])&& $_SESSION['rol'] !="alumno"){header("Location: in
         enlaceLi.classList.add("list-group-item");
         enlaceLi.appendChild(enlace);
         enlacesUl.appendChild(enlaceLi);
+        
       }
       })
       .catch(error => {
@@ -252,6 +249,7 @@ if(empty($_SESSION['email'])&& $_SESSION['rol'] !="alumno"){header("Location: in
        
       });
   });
+  
   
 </script>
 
